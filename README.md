@@ -1,0 +1,2 @@
+# review_sentiment_analyser
+review_sentiment_analyser using MultinomialNb.
