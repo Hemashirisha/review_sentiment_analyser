@@ -11,7 +11,9 @@ from nltk.corpus import stopwords
 import nltk
 import string
 from nltk.stem import WordNetLemmatizer
-
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 def remove_tags(string):
     result = re.sub('<.*?>','',string)
